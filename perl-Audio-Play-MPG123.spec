@@ -6,8 +6,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Audio
-%define		pnam	Play-MPG123
+%define	pdir	Audio
+%define	pnam	Play-MPG123
 Summary:	Audio::Play::MPG123 Perl module - a frontend to mpg123
 Summary(pl):	Modu³ Perla Audio::Play::MPG123 - frontend do mpg123
 Name:		perl-Audio-Play-MPG123
