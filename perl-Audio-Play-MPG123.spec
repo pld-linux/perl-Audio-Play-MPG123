@@ -13,7 +13,7 @@ Summary(pl):	Modu³ Perla Audio::Play::MPG123 - frontend do mpg123
 Name:		perl-Audio-Play-MPG123
 Version:	0.62
 Release:	2
-License:	Artistic or GPL
+License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	93f18059d5240f5da3bff23f7d16864c
