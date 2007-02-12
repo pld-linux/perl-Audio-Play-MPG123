@@ -9,7 +9,7 @@
 %define		pdir	Audio
 %define		pnam	Play-MPG123
 Summary:	Audio::Play::MPG123 Perl module - a frontend to mpg123
-Summary(pl):	Modu³ Perla Audio::Play::MPG123 - frontend do mpg123
+Summary(pl.UTF-8):   ModuÅ‚ Perla Audio::Play::MPG123 - frontend do mpg123
 Name:		perl-Audio-Play-MPG123
 Version:	0.63
 Release:	1
@@ -28,9 +28,9 @@ This is a frontend to the mpg123 player. It works by starting an
 external mpg123 process with the `-R' option and feeding commands to
 it.
 
-%description -l pl
+%description -l pl.UTF-8
 To jest frontend do odtwarzacza mpg123. Funkcjonuje poprzez
-uruchomienie zewnêtrznego procesu mpg123 z opcj± -R i karmienie go
+uruchomienie zewnÄ™trznego procesu mpg123 z opcjÄ… -R i karmienie go
 poleceniami.
 
 %prep
