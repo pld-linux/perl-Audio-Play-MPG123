@@ -4,10 +4,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Audio
 %define		pnam	Play-MPG123
+%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::Play::MPG123 Perl module - a frontend to mpg123
 Summary(pl.UTF-8):	Moduł Perla Audio::Play::MPG123 - frontend do mpg123
 Name:		perl-Audio-Play-MPG123
@@ -17,10 +17,11 @@ License:	GPL v1 or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bd5134e4a7b5a537a921e464dc264e5f
+URL:		http://search.cpan.org/dist/Audio-Play-MPG123/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildArch:	noarch
 Requires:	mpg123 >= 0.59r
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
