@@ -7,7 +7,6 @@
 
 %define		pdir	Audio
 %define		pnam	Play-MPG123
-%include	/usr/lib/rpm/macros.perl
 Summary:	Audio::Play::MPG123 Perl module - a frontend to mpg123
 Summary(pl.UTF-8):	Moduł Perla Audio::Play::MPG123 - frontend do mpg123
 Name:		perl-Audio-Play-MPG123
